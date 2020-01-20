@@ -28,5 +28,5 @@ To query Google Analytics data, you'll need to enable the [Google Analytics Repo
 ## Usage
 
 ```bash
-go run main.go -- --viewID 123456 --keyFile google-analytics-viewer-key.json
+go run main.go -viewID 123456789 -keyFile google-analytics-viewer-key.json
 ```
